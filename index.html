@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Detective: GitHub API Hunter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dev-Detective 🔍</h1>
+        
+        <div class="search-box">
+            <input type="text" id="username-input" placeholder="Enter GitHub username (e.g., octocat)...">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <p id="loading-txt" style="display: none; color: blue; font-weight: bold;">Loading user details...</p>
+        <p id="error-txt" style="display: none; color: red; font-weight: bold;">User Not Found</p>
+
+        <div id="profile-card" class="profile-card" style="display: none;">
+            <img id="avatar" src="" alt="User Avatar" width="100">
+            <h2 id="user-name"></h2>
+            <p id="user-bio"></p>
+            <p><strong>Joined:</strong> <span id="join-date"></span></p>
+            <a id="portfolio-url" href="" target="_blank">Visit GitHub Profile</a>
+
+            <div class="repos-section">
+                <h3>Top 5 Latest Repositories:</h3>
+                <ul id="repos-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
