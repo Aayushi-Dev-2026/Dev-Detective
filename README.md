@@ -59,6 +59,6 @@ A premium, fluid dark-themed web application that leverages asynchronous JavaScr
 ---
 
 ## 🔗 Live Demo
-**View the site live here:** [Insert your Vercel or Netlify link here]
+**View the site live here:** [https://dev-detective-eosin.vercel.app/]
 
 ---
